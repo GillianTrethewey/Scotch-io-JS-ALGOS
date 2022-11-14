@@ -41,9 +41,9 @@ function maxRecurringChar(text) {
     }
 
     charArray = Object.keys(charMap)
-    vaulesArray = Object.values(charMap)
+    valuesArray = Object.values(charMap)
     maxCharValue = Math.max(...vaulesArray)
 
-    return charArray[vaulesArray.indexOf(maxCharValue)]
+    return charArray[valuesArray.indexOf(maxCharValue)]
 }
 */
